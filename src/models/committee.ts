@@ -204,30 +204,30 @@ export const TEMPLATE_TO_MEMBERS: Record<Template, {
   rank?: Rank // not allowed to use members due to import order
 }[]> = {
   'Plenário': [
-    {name: 'Cadeira Nº1 - Gabriel Russo (LIB-SC)'},
-    {name: 'Cadeira Nº2 - Will Padilha (LBM-SC)'},
-	{name: 'Cadeira Nº3 - Ricardo Cesar (LIB-SC)'},
-	{name: 'Cadeira Nº4 - Fernando Havi (LIB-PR)'},
-	{name: 'Cadeira Nº5 - Arthur Souza (LIB-SC)'},
-	{name: 'Cadeira Nº6 - Paulo Leonardi (CON-SC)'},
-	{name: 'Cadeira Nº7 - Gaby Silva (CON-SP)'},
-	{name: 'Cadeira Nº8 - Vinicius Medeiros (LBM-AM)'},
-	{name: 'Cadeira Nº9 - Esther Lawall (CON-SP)'}
+    {name: 'Con. Gabriel Russo (LIB-SC)'},
+    {name: 'Con. Will Padilha (LBM-SC)'},
+	{name: 'Con. Ricardo Cesar (LIB-SC)'},
+	{name: 'Con. Fernando Havi (LIB-PR)'},
+	{name: 'Con. Arthur Souza (LIB-SC)'},
+	{name: 'Con. Paulo Leonardi (CON-SC)'},
+	{name: 'Con. Gaby Silva (CON-SP)'},
+	{name: 'Con. Vinicius Medeiros (LBM-AM)'},
+	{name: 'Con. Esther Lawall (CON-SP)'}
   ],
   'Libertários': [
-    {name: 'Cadeira Nº1 - Gabriel Russo (LIB-SC)'},
-	{name: 'Cadeira Nº3 - Ricardo Cesar (LIB-SC)'},
-	{name: 'Cadeira Nº4 - Fernando Havi (LIB-PR)'},
-	{name: 'Cadeira Nº5 - Arthur Souza (LIB-SC)'}
+    {name: 'Con. Gabriel Russo (LIB-SC)'},
+	{name: 'Con. Ricardo Cesar (LIB-SC)'},
+	{name: 'Con. Fernando Havi (LIB-PR)'},
+	{name: 'Con. Arthur Souza (LIB-SC)'}
   ], 
     'Conservadores': [
-	{name: 'Cadeira Nº6 - Paulo Leonardi (CON-SC)'},
-	{name: 'Cadeira Nº7 - Gaby Silva (CON-SP)'},
-	{name: 'Cadeira Nº9 - Esther Lawall (CON-SP)'}
+	{name: 'Con. Paulo Leonardi (CON-SC)'},
+	{name: 'Con. Gaby Silva (CON-SP)'},
+	{name: 'Con. Esther Lawall (CON-SP)'}
   ],
 	'Liberais Moderados': [
-    {name: 'Cadeira Nº2 - Will Padilha (LBM-SC)'},
-	{name: 'Cadeira Nº8 - Vinicius Medeiros (LBM-AM)'}
+    {name: 'Con. Will Padilha (LBM-SC)'},
+	{name: 'Con. Vinicius Medeiros (LBM-AM)'}
 	]
 }
 

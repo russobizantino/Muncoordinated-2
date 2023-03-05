@@ -59,4 +59,4 @@ export function nameToMemberOption(name: string): MemberOption {
   }
 }
 
-const FLAG_NAME_SET = new Set(COUNTRY_OPTIONS.map(x => x.text));
+const FLAG_NAME_SET = new Set(COUNTRY_OPTIONS.map(x => x.key));

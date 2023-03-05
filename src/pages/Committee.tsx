@@ -267,7 +267,6 @@ function ResponsiveNav(props: ResponsiveContainerProps) {
           </Dropdown.Menu>
         </Dropdown>
         {makeMenuItem('Documentos', 'file outline')}
-        {makeMenuItem('Stats', 'chart bar')}
         <Menu.Menu key="icon-submenu" position="right"> 
         </Menu.Menu>
         <Menu.Item key="login">
@@ -280,6 +279,7 @@ function ResponsiveNav(props: ResponsiveContainerProps) {
   // {makeMenuItem('Notes', 'sticky note outline')}
   // {makeMenuIcon('Help', 'help')} 
   // {makeMenuIcon('Settings', 'settings')} 
+  // {makeMenuItem('Stats', 'chart bar')}
 
   return (
     <React.Fragment>

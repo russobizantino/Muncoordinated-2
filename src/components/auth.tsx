@@ -8,8 +8,8 @@ import {CommitteeData, CommitteeID} from "../models/committee";
 
 enum Mode {
   Login = 'Login',
-  CreateAccount = 'CriarConta',
-  ForgotPassword = 'EsqueciMinhaSenha'
+  CreateAccount = 'CreateAccount',
+  ForgotPassword = 'ForgotPassword'
 }
 
 interface State {
