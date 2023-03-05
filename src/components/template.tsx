@@ -58,13 +58,13 @@ export function TemplateAdder(props: { committeeID: CommitteeID }) {
       <Accordion.Content active={activeIndex === 0}>
         <Form>
           <Form.Dropdown
-            label="Template"
+            label="Grupo"
             name="template"
             search
             clearable
             fluid
             selection
-            placeholder="Select a template to add"
+            placeholder="Selecione um grupo para adicionar"
             value={template}
             options={Object.values(Template).map(makeDropdownOption)}
             onChange={(event, data) => setTemplate(data.value as Template)}

@@ -3,10 +3,10 @@ import {objectToList} from "../utils";
 import * as _ from "lodash";
 
 export enum Rank {
-  Veto = 'Veto',
-  Standard = 'Standard',
-  NGO = 'NGO',
-  Observer = 'Observer'
+  Veto = 'Presidente',
+  Standard = 'Titular',
+  NGO = 'Suplente',
+  Observer = 'Cargos'
 }
 
 export const canVote = (x: MemberData) => (x.rank === Rank.Veto || x.rank === Rank.Standard);
@@ -59,4 +59,4 @@ export function nameToMemberOption(name: string): MemberOption {
   }
 }
 
-const FLAG_NAME_SET = new Set(COUNTRY_OPTIONS.map(x => x.text));
+const FLAG_NAME_SET = new Set(COUNTRY_OPTIONS.map(x => x.key));
